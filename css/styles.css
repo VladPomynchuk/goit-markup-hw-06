@@ -500,6 +500,9 @@ p {
   display: block;
   margin-bottom: 20px;
 }
+.footer-contacts {
+  flex-grow: 1;
+}
 .footer-logo {
   color: var(--primary-bg-color);
 }
@@ -734,7 +737,6 @@ p {
 }
 
 .subscribe-field {
-  margin-right: 12px;
   width: 358px;
   height: 50px;
   padding-left: 16px;
@@ -774,6 +776,7 @@ p {
   justify-content: center;
   width: 200px;
   height: 50px;
+  margin-left: 12px;
 
   background-color: var(--accent);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -901,7 +904,11 @@ p {
   color: var(--secondary-text-color);
 }
 
-.modal-label span {
+.modal-label--margin {
+  margin: 0;
+}
+
+.modal-name {
   margin-bottom: 4px;
 }
 
@@ -964,7 +971,7 @@ p {
   color: rgba(117, 117, 117, 0.5);
 }
 
-.modal-label div {
+.modal-span {
   position: relative;
 }
 
@@ -995,6 +1002,9 @@ p {
   font-size: 14px;
   line-height: 1.71;
   margin-top: 20px;
+  justify-content: center;
+
+  margin-bottom: 30px;
 
   cursor: pointer;
 
@@ -1009,14 +1019,6 @@ p {
   border: 2px solid var(--primary-text-color);
   border-radius: 2px;
 } */
-
-.checkbox-label {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  margin-bottom: 30px;
-}
 
 .checkbox-field {
   position: absolute;
